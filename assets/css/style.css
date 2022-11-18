@@ -51,88 +51,38 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 1000px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     background-image: url("../images/squamous-epithelial-cells.jpeg");
     background-size: cover;
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
 .content {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #b3cabcba;
-}
-
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #505059;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #505059;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #505059;
+    margin-left: 120px;
 }
 
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-lead img {
+.projects img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px; 
+    max-width: 10px; 
 }
 
 .benefit-cost img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 10px;
 }
 
-.about-me {
-    margin-bottom: 20px;
-    margin-top: 30px;
+#about-me {
+    margin-bottom: 30px;
+    margin-top: 50px;
     padding: 50px;
     height: 250px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -140,53 +90,24 @@ p {
     color: #505059;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #b3c4caba;
-    color: #505059;
+
+
+
+#about-me img {
+    max-height: 15px;
 }
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #8cbad4c6;
-    color: #505059;
-}
 
-.about-me img {
-    max-height: 200px;
-}
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.about-me h2 {
+#about-me h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* MEET THE TRAINERS START */
-.trainers {
+.projects {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -194,36 +115,43 @@ p {
     justify-content: space-around;
   }
   
-  .trainer {
+  .project {
     margin: 20px;
     flex: 1;
     background: #b3c4caba;
     color: #505059;
   }
+ 
   
-  .trainer img {
-    width: 100%;
-  }
-  
-  .trainer-bio {
+  .project-bio {
     padding: 25px;
     line-height: 1.3;
   }
   
-  .trainer-bio h3 {
+  .project-bio h3 {
     font-size: 28px;
   }
   
-  .trainer-bio h4 {
+  .project-bio h4 {
     font-weight: lighter;
     font-size: 22px;
     margin-bottom: 15px;
   }
   
-  .trainer-bio p {
+  .project-bio p {
     font-size: 17px;
   }
   /* TRAINER STYLES END */
+
+
+  #contact-me {
+    margin: 30px;
+    padding: 50px;
+    height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #b3c4caba;
+    color: #505059;
+}
 
 .footer {
     padding: 20px;
